@@ -3,7 +3,7 @@ import EmojiDisplay from './EmojiDisplay';
 import emojiList from '../emojiList.js';
 
 const EmojiGet = ({ group }) => {
-
+    // eslint-disable-next-line 
     const Listemoji = emojiList.map(emoji => {
         if (emoji.group === group) {
             return (
