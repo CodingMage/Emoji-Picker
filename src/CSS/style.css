@@ -1,0 +1,17 @@
+.emojidisplay {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.emoji {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    overflow: scroll;
+    /* flex-direction: column; */
+    /* grid-auto-columns: auto; */
+}
